@@ -1,0 +1,15 @@
+group 'elad'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.gravitee.gateway:gravitee-gateway-env:1.14.0'
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.17'
+}
